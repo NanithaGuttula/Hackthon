@@ -1,0 +1,101 @@
+body {
+    background-color: antiquewhite;
+    font-family: serif, Courier ;
+     margin: 3px;
+    padding:2px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px grey;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin:20px;
+    border:100px black;
+
+}
+
+.form-group {
+    border: black;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #135D66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #77B0AA;
+}
+
+table,tr,th {
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #DDDDDD;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions .edit {
+    background-color:#6AD4DD;
+    color: white;
+}
+
+.actions .delete {
+    background-color: #824D74;
+    color: white;
+}
